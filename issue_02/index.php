@@ -1,7 +1,3 @@
-<?php
-  $comment = $_post["message"];
-  echo $message;
-?>
 <!DOCTYPE html>
 <html lang = "ja">
   <head>

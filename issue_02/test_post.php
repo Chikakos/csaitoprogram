@@ -1,6 +1,8 @@
 <?php
-  $comment = $_post["message"];
+  if(isset($_POST["message"])){
+  $message = $_POST["message"];
   echo $message;
+  }
 ?>
 <!DOCTYPE html>
 <html lang = "ja">
